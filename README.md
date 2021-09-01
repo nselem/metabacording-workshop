@@ -1,8 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3260309.svg)](https://doi.org/10.5281/zenodo.3260309)
 
-# Metagenomics Workshop
+# Metabarcoding Workshop
 
-Overview of the Metagenomics workshop. 
+Overview of the Metabarcoding workshop. 
 
 ## Code of Conduct
 
@@ -10,7 +10,7 @@ All participants should agree to abide by [The Carpentries Code of Conduct](http
 
 ## Authors
 
-The Metagenomics workshop overview is authored and maintained by the [community](https://github.com/datacarpentry/genomics-workshop/network/members).
+The Metabarcoding workshop overview is authored and maintained by the [community](https://github.com/datacarpentry/genomics-workshop/network/members).
 
 ## Citation
 
