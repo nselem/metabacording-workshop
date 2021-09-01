@@ -3,13 +3,13 @@
 
 Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools for working
 with data so that they can get more done in less time, and with less pain. This workshop
-teaches data management and analysis for metagenomics research including: 
+teaches data management and analysis for metabarcoding research including: 
 best practices for organization of bioinformatics projects and data, use of command-line 
 utilities, use of command-line tools to analyze sequence quality, use of R studio and
 use of R libraries to compare diversity between samples, and connecting to and using cloud 
 computing. This workshop is designed to be taught over two full days of instruction.
 
-**Please note that workshop materials for working with Metagenomics data are in “alpha” development. 
+**Please note that workshop materials for working with metabarcoding data are in “alpha” development. 
 These lessons are available for review and for informal teaching experiences, but are not yet part 
 of The Carpentries’ official lesson offerings.**
 
@@ -19,7 +19,7 @@ were we will be happy to help you!
 
 
 > ## Frequently Asked Questions
-> Read our [FAQ](/metagenomics-workshop/faq/) to learn more about Data Carpentry's Metagenomics workshop, as an Instructor or a workshop host.
+> Read our [FAQ](/metabarcoding-workshop/faq/) to learn more about Data Carpentry's metabarcoding workshop, as an Instructor or a workshop host.
 {: .callout}
 
 > ## Getting Started
@@ -56,7 +56,7 @@ were we will be happy to help you!
 | [Project organization and management](https://carpentries-incubator.github.io/organization-metagenomics/) | Learn how to structure your metadata, organize and document your metagenomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database.|1:30 hr|  
 | [Introduction to the command line](https://carpentries-incubator.github.io/shell-metagenomics/) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. | 4:00 hr| 
 |[Introduction to R for metagenomics](https://carpentries-incubator.github.io/introduction-to-R-for-metagenomics/) | Use R studio to manage several data types and data strcutures. | 1:00 hr| 
-|[Data processing and visualization for metagenomics](https://carpentries-incubator.github.io/metagenomics/) | Use command-line tools to perform quality control, taxonomic assignment, and diversity exploration. | 5:30 hr| 
+|[Data processing and visualization for metabarcoding](https://ahmedmoustafa.github.io/metabarcoding/) | Use command-line tools to perform quality control, taxonomic assignment, and diversity exploration. | 5:30 hr| 
 
 <!--
 # Optional Additional Lessons
