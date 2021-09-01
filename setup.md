@@ -46,42 +46,36 @@ This lesson requires a working spreadsheet program. If you don't have a spreadsh
 
 ## Option A: Using the lessons with Amazon Web Services (AWS)
 
-If you are signed up to take a Metaggenomics Data Carpentry workshop, you do *not* need to worry about setting up an AMI instance. The Carpentries
+If you are signed up to take a Metabarcoding Data Carpentry workshop, you do *not* need to worry about setting up an AMI instance. The Carpentries
 staff will create an instance for you and this will be provided to you at no cost. This is true for both self-organized and centrally-organized workshops. Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
 
 If you would like to work through these lessons independently, outside of a workshop, you will need to start your own AMI instance. 
-Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/genomics-workshop/AMI-setup/). Use the AMI `ami-0e7fb76a881ab5e09` (Metagenomics - 18 March (The Carpentries Incubator)) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has *no* control over AWS pricing structure and provides this cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information. 
+Follow these [instructions on creating an Amazon instance](https://datacarpentry.org/metabarcoding-workshop/AMI-setup/). Use the AMI `ami-XXXXXX` (Metabarcoding - XXXX (The Carpentries Incubator)) listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` in order to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type is very low (about USD $1.50 per user, per day). Data Carpentry has *no* control over AWS pricing structure and provides this cost estimate with no guarantees. Please read AWS documentation on pricing for up-to-date information. 
 
 If you're an Instructor or Maintainer or want to contribute to these lessons, please get in touch with us [team@carpentries.org](mailto:team@carpentries.org) and we will start instances for you. 
 
-After the genomic instace is setup you need to addition the metagenomics environment. First create the file `metagenomics.yml`
+After the metabarcoding instace is setup you need to addition the metabarcoding environment. First create the file `metabarcoding.yml`
 with the following content:  
 ~~~
-$ cat metagenomics.yml
+$ cat metabarcoding.yml
 ~~~
 {: .bash}
 ~~~
-name: metagenomics                                                                
-dependencies:                                      
-  - kraken2=2.1.1 
-  - krona=2.7.1             
-  - maxbin2=2.2.7
-  - spades=v3.14.1
-  - kraken-biom=1.0.1
-  - checkm-genome=v1.1.3
+name: metabarcoding                                                                
+dependencies:      
 
 ~~~
 {: .output}
 
-Then create the metagenomics conda environment using the metagenomics.yml file.  
+Then create the metabarcoding conda environment using the metabarcoding.yml file.  
 ~~~
-$ conda env create -f metagenomics.yml
+$ conda env create -f metabarcoding.yml
 ~~~
 {: .bash}  
 
 Finally execute some remaining installation scripts.  
 ~~~
-bash /home/dcuser/.miniconda3/envs/metagenomics/opt/krona/updateTaxonomy.sh                                
+bash /home/dcuser/.miniconda3/envs/metabarcoding/opt/krona/updateTaxonomy.sh                                
 wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz 
 tar -xzf taxdump.tar.gz 
 mkdir .taxonkit
@@ -96,7 +90,7 @@ The data used in this workshop are available on Zenodo. Because this workshop wo
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4285901.svg)](https://doi.org/10.5281/zenodo.4285901)
 
 
-More information about these data will be presented in the [first lesson of the workshop](https://carpentries-incubator.github.io/metagenomics/01-background-metadata/index.html).
+More information about these data will be presented in the [first lesson of the workshop](https://carpentries-incubator.github.io/metabarcoding/01-background-metadata/index.html).
 
 
 ## Option B: Using the lessons on your local machine
@@ -109,9 +103,9 @@ dataset. Instructions for doing this are below.
 
 The data used in this workshop is available on FigShare. Because this workshop works with real data, be aware that file sizes for the data are large. Please read the FigShare page linked below for information about the data and access to the data files.
 
-[FigShare Data Carpentry Genomics Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
+[XXXXX FigShare Data Carpentry barcoding Beta 2.0](https://figshare.com/articles/Data_Carpentry_Genomics_beta_2_0/7726454)
 
-More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-genomics/data/).
+More information about these data will be presented in the [first lesson of the workshop](http://www.datacarpentry.org/organization-metabarcoding/data/).
 
 ### Software
 
@@ -119,7 +113,7 @@ More information about these data will be presented in the [first lesson of the 
 | -------- | ------------ | ------ | ------------- | ----------- |
 | [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) | 0.11.7 | [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/)| Linux, MacOS, Windows | Quality control tool for high throughput sequence data. |
 | [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) | 0.38 | [Link](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf) | Linux, MacOS, Windows | A flexible read trimming tool for Illumina NGS data. |
-|[Kraken](http://ccb.jhu.edu/software/kraken2/)|2.1.1|[Link](https://github.com/DerrickWood/kraken2/wiki/Manual)|Available for|A tool for taxonomic assignation for reads from metagenomics|
+|[Kraken](http://ccb.jhu.edu/software/kraken2/)|2.1.1|[Link](https://github.com/DerrickWood/kraken2/wiki/Manual)|Available for|A tool for taxonomic assignation for reads from metabarcoding|
 |[KronaTools](https://github.com/marbl/Krona/wiki) |2.7.1|help link|A tool for taxonomic visualization in hierarchical pie graphs.|
 |[MaxBin2]()|2.2.7|help link|Available for| Tool for MAGs reconstruction|
 |[Spades](https://cab.spbu.ru/software/spades/)|v3.14.1 |[Link](https://github.com/ablab/spades/blob/spades_3.15.2/README.md#meta)|Linux & MacOS| Tool for assemblies|
