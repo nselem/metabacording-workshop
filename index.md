@@ -36,16 +36,15 @@ were we will be happy to help you!
 
 > ## Data
 > 
-> This workshop uses data from enviromental experiment: [Genomic adaptations in information 
-> processing underpin trophic strategy in a whole-ecosystem nutrient 
-> enrichment experiment](https://elifesciences.org/articles/49816), by Jordan G Okie et al.
-> In this research, authors compared the differences between the microbial community 
-> in its natural, oligotrophic, phosphorus-deficient 
->environment, a pond from the Cuatro Ciénegas Basin (CCB), and the same microbial 
->community under a fertilization treatment.
->
+> This workshop uses data from enviromental experiment: [Gut microbiome differences
+>  between amyotrophic lateral sclerosis patients and spouse
+>   controls](https://pubmed.ncbi.nlm.nih.gov/33818222/), by Hertzberg et al.
+> In this research, authors explored differences in microbiome composition 
+> associated with ALS in comparisson with microbiome composition of patient spouses.
+> Gut microbiome profiles were determined by 16S rRNA gene sequencing.
+> 
 > All of the data used in this workshop can be downloaded from
->  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4285901.svg)](https://doi.org/10.5281/zenodo.4285901)
+>  [![DOI](!https://zenodo.org/badge/DOI/10.5281/zenodo.4285901.svg)](https://doi.org/10.5281/zenodo.4285901)
 > More information about this data is available on the [Data page](https://datacarpentry.org/organization-genomics/data/).
 {: .prereq} 
 
