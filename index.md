@@ -56,7 +56,7 @@ were we will be happy to help you!
 | [Introduction to the command line](https://nselem.github.io/shell-metabarcode) |  Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. | 4:00 hr| 
 |[Introduction to R for metagenomics](https://Bedxxe.github.io/Introduction-to-R-for-Metabarcoding) | Use R studio to manage several data types and data strcutures. | 1:00 hr| 
 |[Data processing and visualization for metabarcoding](https://ahmedmoustafa.github.io/metabarcoding/) | Use command-line tools to perform quality control, taxonomic assignment, and diversity exploration. | 5:30 hr|
-|[Data processing and visualization for metabarcoding using Qiime2](https://aaronejaime.github.io/Qiime2-metabarcoding) | Use command-line tools to perform quality control, taxonomic assignment, and diversity exploration. | 5:00 hr| 
+|[Data processing and visualization for metabarcoding using Qiime2](https://aaronejaime.github.io/Qiime2-metabarcoding/) | Use command-line tools to perform quality control, taxonomic assignment, and diversity exploration. | 5:00 hr| 
 
 <!--
 # Optional Additional Lessons
