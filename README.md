@@ -3,6 +3,7 @@
 # Metabarcoding Workshop
 
 Overview of the Metabarcoding workshop. 
+https://nselem.github.io/metabacording-workshop/
 
 ## Code of Conduct
 
